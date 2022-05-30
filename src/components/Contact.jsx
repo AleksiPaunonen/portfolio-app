@@ -1,9 +1,12 @@
 import React from 'react'
 
 const Contact = () => {
+
+  const getform = process.env.REACT_APP_GETFORM_KEY;
+
   return (
     <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
-        <form method='POST' action="https://getform.io/f/2a5433de-03e4-41c5-9f05-a21d3e6dfe13" className='flex flex-col max-w-[600px] w-full'>
+        <form method='POST' action={getform} className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
                 <p className='text-gray-300 py-4'>Submit the form below or send me an email: apaunonen@gmail.com</p>
