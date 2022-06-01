@@ -26,7 +26,7 @@ const About = () => {
             </div>
             <div>
             <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-                <a href='https://drive.google.com/file/d/1MW_DU0_HijeDuZ6pm-pvX5VWyZl6oyxj/view'>
+                <a href='https://drive.google.com/file/d/1_RyxdIToV_6AN1SBD-ROmkBPdrUKTVQO/view?usp=sharing'>
                 Here you can find my resume
                 </a>
               </button>
